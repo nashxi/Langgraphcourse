@@ -4,6 +4,10 @@ from langgraph.graph.message import add_messages
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.types import Command
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 # Import our agents
 from agents.researcher import researcher_node
 from agents.editor import editor_node

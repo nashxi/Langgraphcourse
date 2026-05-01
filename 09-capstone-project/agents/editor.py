@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+llm = ChatGoogleGenerativeAI(model="gemini-3-flash-preview")
 
 def editor_node(state):
     print("--- Editor Working ---")

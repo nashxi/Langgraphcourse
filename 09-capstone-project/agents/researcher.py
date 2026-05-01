@@ -2,7 +2,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import SystemMessage
 from tools.search import mock_search
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+llm = ChatGoogleGenerativeAI(model="gemini-3-flash-preview")
 
 def researcher_node(state):
     print("--- Researcher Working ---")
